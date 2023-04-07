@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+            <title>merab's diner</title>
+            <!-- google fonts here -->
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+            <!-- css link here -->
+            <link rel="stylesheet" href="index.css">
+            <!-- fint-awesome here -->
+            <link rel="stylesheet"
+             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+             integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+             crossorigin="anonymous"
+             referrerpolicy="no-referrer" />
+</head>
+<body>
+      <header>
+            
+            <img class="headerimg" src="images/ferks-guare-KEZdWfYD-ow-unsplash 1.png" alt="">
+            <div class="headertitles">
+                  <h1>Merab's Diner</h1>
+                  <h2>The best Burgers and Pizzas in town </h2>
+           </div>
+      </header>
+      <main id="main">
+     
+            <!--productes list here  -->
+              
+      </main>
+      <section class="chekoutsection" id="chekoutsection" >
+      <p class="chekoutsectiontitle">Your order</p>
+       <div class="pickeditems" id="pickeditems" >
+                  
+            <!-- picked items -->
+
+       </div>
+       <div class="chekoutsectiondivider" >
+            <!-- separator -->
+       </div>
+       <div class="totalpricediv" id="totalprice" >
+
+            <!-- total price goes here -->
+       </div>
+      <button class="completebtn" id="completebtn" >Complete order</button>
+      </section>
+        
+             <!-- modal goes here -->
+
+       <div class="payment-modal" id="paimentmodalid" >
+          <div class="close-modal-btn-container">
+               <button class="modal-close-btn" id="modal-close-btn">X</button>
+          </div>
+
+                 <pc class="modaletitle" >Enter card details</p>        
+
+          <form id="paymentform">
+               
+               <input 
+                   class="username"
+                   type="text" 
+                   id="firstname" 
+                   name="firstname"
+                   placeholder="Enter your name"
+                   required
+                   >
+               
+               <input class="cardnumber" 
+                   type="text" 
+                   id="cardnumber" 
+                   name="cardnumber"
+                   placeholder="Enter card number"
+                   required
+                   >
+               
+               <input 
+                   class="cvv"
+                   type="password" 
+                   id="cvv" 
+                   name="cvv"
+                   placeholder=" Enter CVV "
+                   required
+                   >
+                  
+                   <button class="paybtn" id="paybtn" type="submit" >Pay</button>
+
+           </form>
+           
+         
+        </div> 
+
+         <script src="index.js" type="module" ></script>
+</body>
+
+</html>
+
